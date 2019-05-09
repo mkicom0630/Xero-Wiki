@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<HTML>
+ <HEAD>
+ </HEAD>
+
+ <BODY>
+ <img src="image\logo.png">
+ <input type="text" id="input"><br>
+<button onclick="input()">Go</button>
+
+
+<!-- 아래부터 자바스크립트 -->
+<script type="text/javascript">
+
+var temp0; 
+
+function input(){
+var input = document.getElementById("input").value; 
+temp0 = input;
+temp = "doc\\" + temp0 + ".html";
+location.href=temp;
+}
+
+</script>
+ </BODY>
+</HTML>
